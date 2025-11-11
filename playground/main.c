@@ -262,7 +262,7 @@ int main(void)
     uint64_t start_instret, end_instret, instret_elapsed;
 
     /* Test 0: UF8 */
-    TEST_LOGGER("\n=== uf8 Tests ===\n");
+    TEST_LOGGER("\n=== Uf8 tests ===\n");
     start_cycles   = get_cycles();
     start_instret  = get_instret();
     test_UF8();
@@ -275,7 +275,7 @@ int main(void)
     TEST_LOGGER("\n");
 
     /* Test 1: Hanoi */
-    TEST_LOGGER("\n=== Hanoi Tests ===\n\n");
+    TEST_LOGGER("\n=== Hanoi tower tests ===\n\n");
     start_cycles   = get_cycles();
     start_instret  = get_instret();
     test_Hanoi();
